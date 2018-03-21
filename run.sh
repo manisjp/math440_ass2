@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mpiexec -machinefile lab_ma_file -np 16 ./main_exe
+mpiexec -machinefile lab_ma_file -np 32 ./main_exe
