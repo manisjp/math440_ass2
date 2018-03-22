@@ -19,5 +19,8 @@ main_exe: $(main_files)
 clean:
 		rm *_exe
 		rm *.mod
+		rm *.aux
+		rm *.log
+		rm *.synctex.gz
 
 # END OF MAKEFILE

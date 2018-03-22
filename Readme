@@ -1,0 +1,23 @@
+In order to compile the program type 'make' into the console, this will take 'utils.f90', this file
+contains a subroutine that will use the midpoint method and the trapezoid method to calculate an
+approximation to one subinterval of [0,pi] and a function that will return the value of f at a
+single point, and 'main.f90', this file creates K points between 0 and pi and scatters these points
+to the cores which then create quadrature points and call the subroutine in 'utils.f90' to
+approximate the integral of each of the K intervals, and will create 'main_exe', the main program,
+and 'utils.mod', a helper module.
+After compiling the program, you can run the program by typing './run.sh', I was tired of typing
+out the entire command to run the program so I wrote a small bash script to do so. To change the 
+amount of cores used, simply edit './run.sh'. Running the program will print the amount of cores
+used, the values of H(K) for K divisible by 1000, and finally output how long it took the program
+to run. The program will also write all values of H(K) to three files, 'm.dat', 't.dat', and
+'s.dat', these correspond to data for the midpoint method, trapezoid method, and Simpson's method
+respectively.
+In order to produce the graphs I have, first ensure that gnuplot is installed, then type 'gnuplot'
+to open gnuplot. Then type 'load 'm.p'', this will load 'm.p' which tells gnuplot how to graph the
+data from 'm.dat'. This will open the generated image and will allow you to export the image. Do so
+for each 'm.p', 't.p', and 's.p' which will generate images for 'm.dat', 't.dat', and 's.dat'
+respectively.
+In order to compile my report pdf you can compile the 'Writeup.tex' file with you favored LaTeX
+distro.
+In order to clean up the folder, type 'make clean' this will get rid of 'utils.mod', 'main_exe',
+and all of the LaTeX auxillary files.
