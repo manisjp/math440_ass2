@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.10)  21 MAR 2018 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.10)  21 MAR 2018 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,18 +1242,18 @@ Package pdftex.def Info: main2.png used on input line 117.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./mod.png>] [2 <./main1.pn
 g> <./main2.png>]
-<m.png, id=24, 481.8pt x 361.35pt>
+[3] <m.png, id=28, 481.8pt x 361.35pt>
 File: m.png Graphic file (type png)
  <use m.png>
 Package pdftex.def Info: m.png used on input line 174.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
 
-<t.png, id=25, 481.8pt x 361.35pt>
+<t.png, id=29, 481.8pt x 361.35pt>
 File: t.png Graphic file (type png)
  <use t.png>
 Package pdftex.def Info: t.png used on input line 177.
 (pdftex.def)             Requested size: 192.71658pt x 144.53743pt.
- [3]
+
 <s.png, id=30, 481.8pt x 361.35pt>
 File: s.png Graphic file (type png)
  <use s.png>
@@ -1279,7 +1279,7 @@ s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb>
-Output written on Writeup.pdf (4 pages, 429958 bytes).
+Output written on Writeup.pdf (4 pages, 432042 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
